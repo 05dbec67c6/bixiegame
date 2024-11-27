@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <templates>
   <blocks>
-    <block type="text" id="name">
+    <block type="text" id="title">
       <location x="50" y="50"/>
+      <text color="#000000" size="28"/>
+    </block>
+    <block type="text" id="faction">
+      <location x="50" y="100"/>
       <text color="#000000" size="20"/>
     </block>
+    <block type="text" id="lifespan">
+      <location x="50" y="150"/>
+      <text color="#000000" size="20"/>
+    </block>
+    <block type="text" id="type">
+      <location x="50" y="200"/>
+      <text color="#000000" size="20"/>
+    </block>
+    <block type="text" id="traits">
+      <location x="50" y="250"/>
+      <text color="#000000" size="20"/>
+    </block>
+    <block type="text" id="production">
+      <location x="50" y="300"/>
+      <text color="#000000" size="20"/>
+    </block>
+    <block type="text" id="cost">
+      <location x="50" y="350"/>
+      <text color="#000000" size="20"/>
+    </block>
+    <block type="text" id="description">
+      <location x="50" y="400"/>
+      <text color="#000000" size="20"/>
+      <wordwrap height="300" width="400"/>
+    </block>
   </blocks>
-  <template src="Resources/back.png" default="True">
+
+  <template src="Resources/front.png" default="True">
+
     <matches>
-      <match name="property" value="name" />
+      <match name="Type" value="Germany"/>
+      <match name="Type" value="China"/>
     </matches>
+
     <textblocks>
-      <link block="name">
-        <property name="Name"  />
+      <link block="title">
+        <property name="Title" format="Titel: {}"/>
+      </link>
+      <link block="faction">
+        <property name="Faction" format="Faction: {}"/>
+      </link>
+      <link block="lifespan">
+        <property name="Lifespan" format="Lifespan: {}"/>
+      </link>
+      <link block="type">
+        <property name="Type" format="Type: {}"/>
+      </link>
+      <link block="traits">
+        <property name="Traits" format="Traits: {}"/>
+      </link>
+      <link block="production">
+        <property name="Production" format="Production: {}"/>
+      </link>
+      <link block="cost">
+        <property name="Cost" format="Cost: {}"/>
+      </link>
+      <link block="description">
+        <property name="Description" format="Description: {}"/>
       </link>
     </textblocks>
   </template>

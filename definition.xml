@@ -14,9 +14,20 @@
     <documents></documents>
     <gameModes></gameModes>
     <globalvariables></globalvariables>
-    <card back="Resources/back.png" cornerRadius="2" front="Resources/front.png" height="88"
+    <card back="Resources/back_china.jpg" cornerRadius="2" front="Resources/front.png" height="88"
         width="63">
-        <property name="Text" hidden="False" ignoreText="False" textKind="Free" type="String" />
+        <property name="Title" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Faction" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Lifespan" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Type" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Traits" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Production" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Cost" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Description" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <size name="GermanyCard" back="Resources/back_germany.jpg" backCornerRadius="4" backHeight="88"
+              backWidth="63" cornerRadius="4" front="Resources/front.png" height="88" width="63" />
+        <size name="ChinaCard" back="Resources/back_china.jpg" backCornerRadius="4" backHeight="88"
+              backWidth="63" cornerRadius="4" front="Resources/front.png" height="88" width="63" />
     </card>
     <table name="Table" background="Resources/wallpaper.jpg" backgroundStyle="uniformToFill" height="650"
         ordered="False" visibility="undefined" width="800">
@@ -31,16 +42,17 @@
         <cardaction batchExecute="removeMarker" menu="Remove Marker" shortcut="ctrl+W" />
         <cardaction batchExecute="addAnyMarker" menu="Add Custom Marker..."
             shortcut="ctrl+shift+Q" />
+
     </table>
     <player summary="Hand:{#Hand} Score:{#Score}">
         <counter name="Score" icon="Resources/score.png" />
-        <hand name="Hand" icon="Resources/hand.png" ordered="False" shortcut="ctrl+H"
+        <group viewState="expanded" name="Hand" icon="Resources/hand.png" ordered="False" shortcut="ctrl+H"
             visibility="me">
             <cardaction execute="discard" menu="Discard Card" shortcut="del" />
             <groupaction execute="randomDiscard" menu="Randomly Discard a Card" />
             <groupaction execute="randomPick" menu="Randomly Pick a Card" />
             <groupaction execute="allToDeck" menu="Move All Cards to Deck" />
-        </hand>
+        </group>
         <group name="Deck" icon="Resources/deck.png" shortcut="ctrl+E" visibility="none">
             <groupaction default="True" execute="draw" menu="Draw" shortcut="ctrl+D" />
             <groupaction execute="drawMany" menu="Draw X Cards" shortcut="ctrl+shift+D" />
