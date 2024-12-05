@@ -1,8 +1,8 @@
-import re
-
 ###################
 #### CONSTANTS ####
 ###################
+
+VictoryPoint = ("VictoryPoint", "01bc7794-e362-4ff3-80ce-e69a2644b8e3")
 
 ## Change these strings to whatever you choose to name your piles from the XML
 
@@ -21,6 +21,25 @@ StandardMarker = ("Marker", "d9851c6f-2ed7-4ca9-82d2-f22e4e12114c")
 ######################
 #### PILE ACTIONS ####
 ######################
+
+# Triggered event OnLoadDeck
+# args: player, groups
+def deckLoaded(args):
+    drawOpeningHand()
+
+
+def drawOpeningHand():
+    mute()
+    me.deck.shuffle()
+    n = 6
+    for i in range(n):
+        mute()
+        if len(me.deck) < 1:
+            return
+        card = me.deck.top()
+        card.moveTo(card.owner.hand)
+    notify("{} draws the opening hand.".format(me))
+
 
 def shuffle(group, x = 0, y = 0):
     mute()
@@ -61,6 +80,21 @@ def allToDeck(group, x = 0, y = 0):
         card.moveTo(card.owner.piles[deck])
     notify("{} moves all cards from {} to {}.".format(me, group.name, me.piles[deck].name))
 
+def addToken(card, tokenType):
+    mute()
+    card.markers[tokenType] += 1
+    notify("{} adds a {} to '{}'".format(me, tokenType[0], card))
+
+def subToken(card, tokenType):
+    mute()
+    card.markers[tokenType] -= 1
+    notify("{} removes a {} from '{}'".format(me, tokenType[0], card))
+
+def addVictoryPoint(card, x = 0, y = 0):
+    addToken(card, VictoryPoint)
+
+def subVictoryPoint(card, x = 0, y = 0):
+    subToken(card, VictoryPoint)
 ######################
 #### HAND ACTIONS ####
 ######################

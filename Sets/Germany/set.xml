@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Germany" gameId="82bd917d-d6a5-4144-a62e-6024a0e8d465" gameVersion="1.0.0.0" id="4a19288c-4a3a-4743-9eac-c8e73f32e230" version="1.0">
+    <cards>
+
+        <!-- Personen -->
+
+        <card name="Wolfram von Eschenbach" id="df7ce4cf-dbaa-438d-9f26-6acd54e4ec5b" size="GermanyCard">
+            <property name="Title" value="Wolfram von Eschenbach"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="ca. 1160/80 - ca. 1220"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Antike."/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Heldendichtung. Wenn du einen Kampf mit einer Differenz von mindestens 3 Icons gewinnst, verschiebe einen teilnehmenden Charakter zu einem anderen Wettbewerb. Er gilt dort bis zum Ende der Phase als teilnehmender Charakter."/>
+        </card>
+        <card name="Johann Wolfgang von Goethe" id="f49327ab-ea27-4889-9f19-6b6015bc7549" size="GermanyCard">
+            <property name="Title" value="Johann Wolfgang von Goethe"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1749-1832"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Antike."/>
+            <property name="Production" value="4-1-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Dichterfürst. Jeder Charakter in einem Literatur-Kampf erhält ein zusätzliches Literaturicon."/>
+        </card>
+        <card name="Friedrich Schiller" id="2a48261d-46bb-467a-845a-dca94dcac5e0" size="GermanyCard">
+            <property name="Title" value="Friedrich Schiller"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1759-1805"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Mittelalter."/>
+            <property name="Production" value="4-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Vielzitiert. Das Ausspielen von mit Friedrich Schiller korrelierenden Karten kostet jeweils 2 Icons weniger."/>
+        </card>
+        <card name="Ernst Theodor Amadeus Hoffmann" id="01be3e36-e91c-410b-86cd-5b4f62244fa5" size="GermanyCard">
+            <property name="Title" value="Ernst Theodor Amadeus Hoffmann"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1776-1822"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Mittelalter."/>
+            <property name="Production" value="2-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Im Ausland bewundert."/>
+        </card>
+        <card name="Heinrich Heine" id="61b2fd1b-2088-4d95-be78-86f05a5d9cae" size="GermanyCard">
+            <property name="Title" value="Heinrich Heine"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1797-1856"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Neu- und Neueste Zeit."/>
+            <property name="Production" value="3-1-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Polemiker. Unterbrechung: Wenn ein Wettbewerb ausgewertet wird, opfere Heinrich Heine, um eine beliebige Person aus dem Wettbewerb zu entfernen."/>
+        </card>
+        <card name="Thomas Mann" id="a36e6ef5-49f3-4c5d-a1d6-2751617ea922" size="GermanyCard">
+            <property name="Title" value="Thomas Mann"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1875-1955"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Neu- und Neueste Zeit."/>
+            <property name="Production" value="3-1-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="„Tief ist der Brunnen der Vergangenheit“. Aktion: Lege Thomas Mann ab, um eine beliebige Person aus deinem Ablagestapel ins Spiel zu bringen."/>
+        </card>
+        <card name="Johann Sebastian Bach" id="2f2e05aa-f455-4cdf-82e7-e42db079091c" size="GermanyCard">
+            <property name="Title" value="Johann Sebastian Bach"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1685-1750"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Antike."/>
+            <property name="Production" value="0-5-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Die Kunst der Fuge. Reaktion: Nachdem ein gegnerisches Ereignis ausgeführt worden ist, erschöpfe einen Charakter mit Musik-Icon, um dasselbe Ereignis selbst auszuführen."/>
+        </card>
+        <card name="Ludwig van Beethoven" id="257f007e-7e7a-425f-9dd4-3a06f8423fa7" size="GermanyCard">
+            <property name="Title" value="Ludwig van Beethoven"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1770-1827"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Antike."/>
+            <property name="Production" value="1-5-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Wegbereiter der Romantik. Nimm eine andere Klassik-Person auf die Hand zurück, um eine Romantik-Person von deiner Hand ins Spiel zu bringen."/>
+        </card>
+        <card name="Jacques Offenbach" id="7161a078-7958-4959-8ea5-3e370c7470bc" size="GermanyCard">
+            <property name="Title" value="Jacques Offenbach"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1819-1880"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Mittelalter."/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Höllengalopp. Aktion: Verschiebe eine Person von einem Wettbewerb zu einem anderen. (Einmal pro Runde)"/>
+        </card>
+        <card name="Richard Wagner" id="b84d6efa-491a-4a01-900e-4c22201fb566" size="GermanyCard">
+            <property name="Title" value="Richard Wagner"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1813-1883"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Mittelalter."/>
+            <property name="Production" value="2-3-1"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Wiederbelebung des Mythos. Richard Wagner erhält ein zusätzliches Musik-Icon für jede Mittelalter- oder Romantik-Karte unter deiner Kontrolle."/>
+        </card>
+        <card name="Richard Strauss" id="8134d7fe-dbd3-40cd-9570-756ea7875216" size="GermanyCard">
+            <property name="Title" value="Richard Strauss"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1864-1949"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Neu- und Neueste Zeit."/>
+            <property name="Production" value="1-1-1"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Kulturpolitiker. Beuge Richard Strauss, um [Eco]"/>
+        </card>
+        <card name="Albrecht Dürer" id="4e503665-e7af-4ce8-82ba-25c0302208d7" size="GermanyCard">
+            <property name="Title" value="Albrecht Dürer"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1471-1528"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Neu- und Neueste Zeit."/>
+            <property name="Production" value="1-0-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Melancholie. Wenn du einen Kampf verlierst, an dem Albrecht Dürer teilnimmt, ziehe 1 Karte."/>
+        </card>
+        <card name="Caspar David Friedrich" id="a70fe130-6255-49c2-9e3c-84c787849d39" size="GermanyCard">
+            <property name="Title" value="Caspar David Friedrich"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1774-1840"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Bildende Kunst. Mittelalter."/>
+            <property name="Production" value="1-0-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Einsamkeit. Ziehe eine Karte, wenn ein anderes Mittelalter-Icon erschöpft wird."/>
+        </card>
+        <card name="Paul Klee" id="0f75d135-48e2-4d42-a39c-ae7b4dcb88c8" size="GermanyCard">
+            <property name="Title" value="Paul Klee"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1879-1940"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst. Antike."/>
+            <property name="Production" value="1-0-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Hans Arp" id="0f75d135-48e2-4d42-a39c-ae7b4dcb88c8" size="GermanyCard">
+            <property name="Title" value="Hans Arp"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1886-1966"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst. Mittelalter."/>
+            <property name="Production" value="1-0-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Dadaismus. Aktion: Wenn Hans Arp an einem Literatur- oder Bildwettbewerb teilnimmt, lege eine zufällige Karte aus deiner Hand ab. Hans Arp erhält bis zum Ende der Phase so viele zusätzliche Icons, wie die Kosten der ablegten Karte betragen. Danach ziehe eine Karte."/>
+        </card>
+
+        <card name="Immanuel Kant" id="0f75d135-48e2-4d42-a39c-ae7b4dcb88c8" size="GermanyCard">
+            <property name="Title" value="Immanuel Kant"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1724-1804"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Philosophie. Mittelalter."/>
+            <property name="Production" value="1-2-1"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Kritik der reinen Vernunft. Jeder deiner Philosophie-Charaktere erhält ein zusätzliches Philosophie-Icon."/>
+        </card>
+        <card name="Friedrich Nietzsche" id="f16efe75-4bee-4082-a032-0276cd3550fe" size="GermanyCard">
+            <property name="Title" value="Friedrich Nietzsche"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1844-1900"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Philosophie. Neu- und Neueste Zeit."/>
+            <property name="Production" value="2-1-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Nihilismus. Lege Friedrich Nietzsche ab, um eine Person zu wählen. Diese verliert bis zum Ende der Phase sämtliche Icons. Oder: Umwerthung aller Werte. Wähle zwei Personen. Jede der beiden verliert sämtliche Icons und erhält dafür die aufgedruckten Icons der jeweils anderen gewählten Person."/>
+        </card>
+        <card name="Max Ernst" id="78b7e38c-740a-483f-acd7-2a4d37b2a0d0" size="GermanyCard">
+            <property name="Title" value="Max Ernst"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1891-1976"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Bildende Kunst. Mittelalter."/>
+            <property name="Production" value="1-0-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Sphinxartig. Ziehe eine Karte, wenn du einen Kampf gewinnst, an dem Max Ernst teilnimmt."/>
+        </card>
+        <card name="Arthur Schopenhauer" id="78b7e38c-740a-483f-acd7-2a4d37b2a0d0" size="GermanyCard">
+            <property name="Title" value="Arthur Schopenhauer"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1788-1860"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Musik. Kunst."/>
+            <property name="Production" value="1-1-1"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Nachdenklich. Wenn Du einen Kampf verlierst, ziehe eine Karte."/>
+        </card>
+        <card name="Johannes Gutenberg" id="78b7e38c-740a-483f-acd7-2a4d37b2a0d0" size="GermanyCard">
+            <property name="Title" value="Johannes Gutenberg"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value="1400-1468"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Musik. Kunst."/>
+            <property name="Production" value="3-1-1"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <!--Orte-->
+
+        <card name="Weimar" id="734b8cfb-8482-464b-98a9-b1d37c8fac64" size="GermanyCard">
+            <property name="Title" value="Weimar"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Antike."/>
+            <property name="Production" value="0-0-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Grüner Hügel" id="37473447-7ed0-4f28-b1ab-ad149a0402a5" size="GermanyCard">
+            <property name="Title" value="Grüner Hügel"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Mittelalter."/>
+            <property name="Production" value="0-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Elbphilharmonie" id="fd5c2349-5450-43d1-a37c-9d67937c9404" size="GermanyCard">
+            <property name="Title" value="Elbphilharmonie"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Neu- und Neueste."/>
+            <property name="Production" value="0-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Deutsches Literaturarchiv Marbach" id="4c4ee237-500b-4b78-883e-f0592d290aea" size="GermanyCard">
+            <property name="Title" value="Deutsches Literaturarchiv Marbach"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Antike."/>
+            <property name="Production" value="0-0-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Staatsbibliothek zu Berlin" id="eec34da5-792f-4a5f-a766-2c68dfa9a38c" size="GermanyCard">
+            <property name="Title" value="Staatsbibliothek zu Berlin"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Mittelalter."/>
+            <property name="Production" value="2-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Zwinger" id="06c49638-3ce1-46ec-8ce0-a3144602e788" size="GermanyCard">
+            <property name="Title" value="Zwinger"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik. Neu- und Neueste."/>
+            <property name="Production" value="0-0-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Alte Pinakothek" id="21859269-7333-42aa-821f-9efe979b7701" size="GermanyCard">
+            <property name="Title" value="Alte Pinakothek"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst. Antike."/>
+            <property name="Production" value="0-0-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Kölner Dom" id="73908aed-919e-4f15-9aeb-99ecaffbd083" size="GermanyCard">
+            <property name="Title" value="Kölner Dom"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst. Mittelalter."/>
+            <property name="Production" value="0-0-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Dresdner Frauenkirche" id="ccb79175-5ee5-4ebc-96ff-725be91a3d6e" size="GermanyCard">
+            <property name="Title" value="Dresdner Frauenkirche"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst. Neu- und Neueste."/>
+            <property name="Production" value="0-4-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Schloss Neuschwanstein" id="f2a8207f-e76c-4c7b-a7f9-845ab9453ddf" size="GermanyCard">
+            <property name="Title" value="Schloss Neuschwanstein"/>
+            <property name="Faction" value="Germany"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur. Musik. Kunst."/>
+            <property name="Production" value="0-0-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <!-- Werke -->
+
+        <card name="Parzival" id="57d0203f-2b9d-4b36-b96b-c3c811703e13" size="GermanyCard">
+            <property name="Title" value="Parzival"/>
+            <property name="Faction" value="Antike"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-1-1"/>
+            <property name="Cost" value="0-0-2"/>
+            <property name="Description" value="Der heilige Gral. Aktion: Richte eine Person auf (1 pro Runde)"/>
+        </card>
+
+        <card name="Goethes Faust" id="e9471425-e5eb-46d8-af0d-61968270922c" size="GermanyCard">
+            <property name="Title" value="Goethes Faust"/>
+            <property name="Faction" value="Mittelalter"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-2-0"/>
+            <property name="Cost" value="0-0-2"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Don Juan" id="75063cfb-2214-465d-bdca-a05752b17548" size="GermanyCard">
+            <property name="Title" value="Don Juan"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-0-1"/>
+            <property name="Cost" value="0-1-2"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Also sprach Zarathustra" id="c3ef2089-6c7c-4c81-ad85-05e28512d8ec" size="GermanyCard">
+            <property name="Title" value="Also sprach Zarathustra"/>
+            <property name="Faction" value="Antike"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="0-1-1"/>
+            <property name="Cost" value="0-0-2"/>
+            <property name="Description" value="Hänge diese Karte an eine Person an. Der Übermensch. Die Icons der Person, an die diese Karte angehängt ist, werden verdoppelt."/>
+        </card>
+
+        <card name="Ode an die Freude" id="6b34beef-6391-4d65-b03b-6dbed2a48cb8" size="GermanyCard">
+            <property name="Title" value="Ode an die Freude"/>
+            <property name="Faction" value="Mittelalter"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="0-1-2"/>
+            <property name="Cost" value="0-0-3"/>
+            <property name="Description" value="Europahymne. Aktion: Bringe eine Person mit mindestens zwei Nationalitäten-Traits kostenlos von deiner Hand ins Spiel (Max. 1 pro Runde)"/>
+        </card>
+
+        <card name="Melencolia I" id="8efdb81b-e5a0-4347-ac48-6ae107405735" size="GermanyCard">
+            <property name="Title" value="Melencolia I"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="0-1-1"/>
+            <property name="Cost" value="1-1-3"/>
+            <property name="Description" value="Nachdenklich. Wenn Du einen Kampf verlierst, ziehe eine Karte."/>
+        </card>
+
+        <card name="Turandot" id="5cc831c7-f551-48d8-8b2d-22967b78c870" size="GermanyCard">
+            <property name="Title" value="Turandot"/>
+            <property name="Faction" value="Antike"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="0-1-2"/>
+            <property name="Cost" value="0-0-3"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Hoffmanns Erzählungen" id="1fcdae09-dcd7-4de2-a503-c4da06d6b370" size="GermanyCard">
+            <property name="Title" value="Hoffmanns Erzählungen"/>
+            <property name="Faction" value="Mittelalter"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="0-2-0"/>
+            <property name="Cost" value="1-3-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Wanderer über dem Nebelmeer" id="472bcbae-940c-44ac-93e9-4d894049d1de" size="GermanyCard">
+            <property name="Title" value="Wanderer über dem Nebelmeer"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="0-0-1"/>
+            <property name="Cost" value="2-3-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Kritik der reinen Vernunft" id="1b020824-4653-4aa4-8dd1-e01eb94a54d2" size="GermanyCard">
+            <property name="Title" value="Kritik der reinen Vernunft"/>
+            <property name="Faction" value="Musik Kunst"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-1-1"/>
+            <property name="Cost" value="1-1-3"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <!-- Ereignis-->
+
+        <card name="Comebacktournee" id="02b1d759-b6e5-49f6-bbc0-792177a526d3" size="GermanyCard">
+            <property name="Title" value="Comebacktournee"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Mauerfall/ Wiedervereinigung" id="602f97a7-0358-4d4e-96cd-3657d290d49b" size="GermanyCard">
+            <property name="Title" value="Mauerfall/ Wiedervereinigung"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Die goldenen Zwanziger" id="f4801445-7b2c-40fe-8797-d3bebd21e748" size="GermanyCard">
+            <property name="Title" value="Die goldenen Zwanziger"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Begründung der Sozialversicherung" id="0e1d08ed-17ff-4380-a0a5-c72412a415cb" size="GermanyCard">
+            <property name="Title" value="Begründung der Sozialversicherung"/>
+            <property name="Faction" value="Neu- und Neueste Zeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Märzrevolution" id="2fe4308e-5159-4df2-8c12-5f8be9872e62" size="GermanyCard">
+            <property name="Title" value="Märzrevolution"/>
+            <property name="Faction" value="Neuzeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Reformation" id="2130d7bd-9f16-4ed1-92c5-9b1b03a4db16" size="GermanyCard">
+            <property name="Title" value="Reformation"/>
+            <property name="Faction" value="Frühe Neuzeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Erfindung des Buchdrucks" id="191fca54-0de4-4bdf-ae21-ca9ec7e0fc8c" size="GermanyCard">
+            <property name="Title" value="Erfindung des Buchdrucks"/>
+            <property name="Faction" value="Frühe Neuzeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Dreißigjähriger Krieg" id="5210746f-a9df-4ee0-9629-50bf614a16d7" size="GermanyCard">
+            <property name="Title" value="Dreißigjähriger Krieg"/>
+            <property name="Faction" value="Frühe Neuzeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Industrielle Revolution" id="188bbf8d-b288-4241-b55d-dfea9fd6c42f" size="GermanyCard">
+            <property name="Title" value="Industrielle Revolution"/>
+            <property name="Faction" value="Neuzeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <card name="Aufklärung" id="7bb1b90c-f58d-491a-9d9d-0d0d3f740be0" size="GermanyCard">
+            <property name="Title" value="Aufklärung"/>
+            <property name="Faction" value="Neuzeit"/>
+            <property name="Lifespan" value=""/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value=""/>
+            <property name="Production" value="0-0-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+    </cards>
+
+</set>

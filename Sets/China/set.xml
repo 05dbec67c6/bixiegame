@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="China" gameId="82bd917d-d6a5-4144-a62e-6024a0e8d465" gameVersion="1.0.0.0"
+     id="42e4c136-dfc9-4819-9693-20af207ea836" version="1.0">
+    <cards>
+
+        <!-- Personen -->
+
+        <card name="Wu Cheng'en" id="1000b361-dee5-4117-a97d-05a4b89be144" size="ChinaCard">
+            <property name="Title" value="Wu Cheng'en"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1506-1582"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur."/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Lu Xun" id="3a4bbb6f-2dee-4d4f-9073-05459a4776ef" size="ChinaCard">
+            <property name="Title" value="Lu Xun"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1881-1936"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur."/>
+            <property name="Production" value="3-3-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Luo Guanzhong" id="925beabc-dbdb-4fd1-91aa-a1f5a59ee6e0" size="ChinaCard">
+            <property name="Title" value="Luo Guanzhong"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1320-1400"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur."/>
+            <property name="Production" value="4-4-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Kenner der Kriegskunst. Aktion: Beuge Luo Guanzhong zu Beginn der Kampfphase, um eine Handkarte verdeckt in einen Wettbewerb zu legen. Sobald der Wettbewerb ausgewertet wird, decke die Karte auf. Ist es ein Charakter, nimmt er am Wettbewerb teil und wird nach der Auswertung abgelegt; andernfalls wird die Karte sofort ohne Wirkung abgelegt."/>
+        </card>
+        <card name="Du Fu" id="885b3702-8fac-48e8-90ef-121de5e8c09a" size="ChinaCard">
+            <property name="Title" value="Du Fu"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="712-770"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur."/>
+            <property name="Production" value="2-1-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Falls Li Bai im Spiel ist, erhält Du Fu ein zusätzliches Literatur-Icon. Rastlos. Aktion: Verschiebe Du Fu in einen anderen Wettbewerb. (Max. 2 pro Runde)"/>
+        </card>
+        <card name="Li Bai" id="cc7003fc-97f9-4ce9-99ad-294d8b878551" size="ChinaCard">
+            <property name="Title" value="Li Bai"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="701-762"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur."/>
+            <property name="Production" value="2-1-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Freund des Weines. Aktion: Verdopple Li Bais Icons bis zum Ende der Runde. In der Stand-Phase dieser Runde wird Li Bai nicht aufgerichtet."/>
+        </card>
+        <card name="CAO Xueqin" id="52dac1f8-9950-448d-a930-0dc6362c5b79" size="ChinaCard">
+            <property name="Title" value="CAO Xueqin"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1715-1763"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Literatur."/>
+            <property name="Production" value="2-1-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Xian Xinghai" id="f9058f45-db3f-48a6-abf2-9c227f4940e6" size="ChinaCard">
+            <property name="Title" value="Xian Xinghai"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1905-1945"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik."/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Brücke zwischen Ost und West. Xian Xinghai erhält ein zusätzliches Icon für jeden Gegner in einem Wettbewerb."/>
+        </card>
+        <card name="Bo Ya (Yu Boya)" id="4a62a566-979c-480f-89e4-5e1effd2ce7f" size="ChinaCard">
+            <property name="Title" value="Bo Ya (Yu Boya)"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="unbekannt"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik."/>
+            <property name="Production" value="3-3-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Legende, Freundschaft mit Zhong Ziqi."/>
+        </card>
+        <card name="Mei Lanfang" id="5eb5dfa6-c97a-4ebc-8879-4db1e25a21d3" size="ChinaCard">
+            <property name="Title" value="Mei Lanfang"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1894-1961"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik."/>
+            <property name="Production" value="4-4-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Sänger."/>
+        </card>
+        <card name="Hua Yanjun (Abing)" id="1decfa81-236b-49cd-8236-97d54c63a54c" size="ChinaCard">
+            <property name="Title" value="Hua Yanjun (Abing)"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1893-1950"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik."/>
+            <property name="Production" value="1-2-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Blind, Musiker."/>
+        </card>
+        <card name="Liu Tianhua" id="082b2df2-5c36-44ad-9fbb-fd7dc8aa2520" size="ChinaCard">
+            <property name="Title" value="Liu Tianhua"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1895-1932"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik."/>
+            <property name="Production" value="2-1-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Ji Kang" id="539e50bf-274e-4467-a6ab-d91d7676bebf" size="ChinaCard">
+            <property name="Title" value="Ji Kang"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="223-262"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Musik."/>
+            <property name="Production" value="1-2-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Auch Dichter, Anti-Konfuzius, Bambushain."/>
+        </card>
+        <card name="Ruan Ji" id="629d8f85-01e5-427b-a5c6-a4c688f8868f" size="ChinaCard">
+            <property name="Title" value="Ruan Ji"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="210-263"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Auch Dichter, Bambushain, Freundschaft Ji Kang."/>
+        </card>
+        <card name="Wang Xizhi" id="bc3e4344-9039-430e-8679-7317d7cc5280" size="ChinaCard">
+            <property name="Title" value="Wang Xizhi"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="307-365"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="3-3-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value="Kalligrafie."/>
+        </card>
+        <card name="Qi Baishi" id="a74c8961-bcfc-413f-9a45-232ae148c323" size="ChinaCard">
+            <property name="Title" value="Qi Baishi"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1864-1957"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-2-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Zhang Zeduan" id="fe966122-11c1-4317-a027-6c30de579bfd" size="ChinaCard">
+            <property name="Title" value="Zhang Zeduan"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="1085-1145"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-2-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Wu Daozi" id="57a28006-c1a2-47ae-8771-20724f74c277" size="ChinaCard">
+            <property name="Title" value="Wu Daozi"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="680-760"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-1-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Gu Kaizhi" id="66fa1024-0c88-487c-b597-fb8da886bb01" size="ChinaCard">
+            <property name="Title" value="Gu Kaizhi"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="344-405"/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-1-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Konfuzius" id="e665dc5c-eb70-405f-9d23-00fdf172590c" size="ChinaCard">
+            <property name="Title" value="Konfuzius"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="551-479 v. Chr."/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-2-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Zhuangzi" id="615951d0-024c-4c89-988d-ace66e6fe223" size="ChinaCard">
+            <property name="Title" value="Zhuangzi"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="365-290 v. Chr."/>
+            <property name="Type" value="Person"/>
+            <property name="Traits" value="Kunst."/>
+            <property name="Production" value="2-2-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <!-- Orte -->
+
+        <card name="Shanyang-Provinz (7 Weise des Bambushains)" id="6d2a798f-751b-4576-b8ca-d7dcc0660047" size="ChinaCard">
+            <property name="Title" value="Shanyang-Provinz (7 Weise des Bambushains)"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Kaiserzeit"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Tianjin Binhai Bibliothek" id="57237564-ac31-445a-b295-94ce461b1035" size="ChinaCard">
+            <property name="Title" value="Tianjin Binhai Bibliothek"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Republik China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Chinesische Nationalbibliothek Peking" id="b1bb4ce9-c02d-4b32-aa65-31502497b256" size="ChinaCard">
+            <property name="Title" value="Chinesische Nationalbibliothek Peking"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="4-4-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Harbin Grand Theatre" id="46c7b1fe-478f-4476-8c0f-af0679576a51" size="ChinaCard">
+            <property name="Title" value="Harbin Grand Theatre"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Kaiserzeit"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Guanzhou Opernhaus" id="4488f0d3-b432-41fe-9130-c6a31eb24f95" size="ChinaCard">
+            <property name="Title" value="Guanzhou Opernhaus"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Republik China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Shanghai Grand Theatre" id="9ec9e48c-b40e-482e-a6cf-b686b16ee13c" size="ChinaCard">
+            <property name="Title" value="Shanghai Grand Theatre"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="4-4-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Chinesisches Nationalmuseum Peking" id="e455dd35-39f9-4621-9e9e-c739222569f4" size="ChinaCard">
+            <property name="Title" value="Chinesisches Nationalmuseum Peking"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Kaiserzeit"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Chinesische Mauer" id="40d3d68f-7278-46e9-9acb-49ea0863b2af" size="ChinaCard">
+            <property name="Title" value="Chinesische Mauer"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Republik China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="2-2-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Palastmuseum Peking" id="cbdd5741-97b3-4587-a5cb-dffb4c3ab6dc" size="ChinaCard">
+            <property name="Title" value="Palastmuseum Peking"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="4-4-0"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Drei Schluchten Staudamm" id="a83bb1f3-9f46-4590-99f6-ca026c8f662d" size="ChinaCard">
+            <property name="Title" value="Drei Schluchten Staudamm"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ort"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="1-1-1-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <!-- Werke -->
+
+        <card name="Geschichte der drei Reiche (Literatur): Luo Guanzhong, Cao Cao" id="26019a97-9d0e-4aa8-a362-a54fda5491d1" size="ChinaCard">
+            <property name="Title" value="Geschichte der drei Reiche (Literatur): Luo Guanzhong, Cao Cao"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Kaiserzeit"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Die Reise nach Westen" id="fcb3ce63-c6e7-4779-888a-e7b4f906d426" size="ChinaCard">
+            <property name="Title" value="Die Reise nach Westen"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Republik China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-4-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Die Kunst des Krieges" id="d1028519-391a-47aa-95ca-62fe297fb057" size="ChinaCard">
+            <property name="Title" value="Die Kunst des Krieges"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur"/>
+            <property name="Production" value="0-3-3-6"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Daodejing" id="cee925b9-53c0-4e3f-905f-6ca48989873f" size="ChinaCard">
+            <property name="Title" value="Daodejing"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Kaiserzeit"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Das wahre Buch vom südlichen Blütenland" id="1a0531ef-9e8d-4de3-843d-e23d1b63c72d" size="ChinaCard">
+            <property name="Title" value="Das wahre Buch vom südlichen Blütenland"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Republik China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="0-4-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Die Siebenundachtzig Himmlischen" id="f3a8951a-1b2f-462c-904a-e2823432174b" size="ChinaCard">
+            <property name="Title" value="Die Siebenundachtzig Himmlischen"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Musik"/>
+            <property name="Production" value="0-3-3-6"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Fluss-Zeichnung (Bild)" id="0bbb44f4-dc2e-4519-9506-f63413643e4c" size="ChinaCard">
+            <property name="Title" value="Fluss-Zeichnung (Bild)"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Kaiserzeit"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Das Buch der Wandlungen" id="d75457a2-fb14-4917-a763-aec84ca20f96" size="ChinaCard">
+            <property name="Title" value="Das Buch der Wandlungen"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="Republik China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="0-4-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Galoppierendes Pferd" id="6d006183-f234-4bf8-a4c3-b386ce408818" size="ChinaCard">
+            <property name="Title" value="Galoppierendes Pferd"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Kunst"/>
+            <property name="Production" value="0-3-3-6"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Qingming-Rolle" id="0d476392-0377-4300-af5e-9ac2ef845051" size="ChinaCard">
+            <property name="Title" value="Qingming-Rolle"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Werk"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-1-1-1-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+        <!-- Werke -->
+
+        <card name="Kreative Aneignung" id="d1774dc2-546f-4882-85b8-8218597bdc93" size="ChinaCard">
+            <property name="Title" value="Kreative Aneignung"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Kalligraphie" id="d7d6fa65-9973-4b6c-aa3f-a47e8f40c302" size="ChinaCard">
+            <property name="Title" value="Kalligraphie"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Der Zauber des Fernen Ostens" id="50474eae-0f3a-4e34-b3e6-b12903e43063" size="ChinaCard">
+            <property name="Title" value="Der Zauber des Fernen Ostens"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Qing-Dynastie" id="0fba2dac-544a-481b-bef4-89e6fcb29fe2" size="ChinaCard">
+            <property name="Title" value="Qing-Dynastie"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Ming-Dynastie" id="75d0038d-68ff-444c-891b-c0dc8d01d1ee" size="ChinaCard">
+            <property name="Title" value="Ming-Dynastie"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Tang-Dynastie - Goldenes Zeitalter der Künste" id="641f3e2c-087f-4752-a1d4-186cc40dc3f0" size="ChinaCard">
+            <property name="Title" value="Tang-Dynastie - Goldenes Zeitalter der Künste"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Holztafeldruck" id="1a8c0d60-551f-482c-97c8-611159a08a83" size="ChinaCard">
+            <property name="Title" value="Holztafeldruck"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Kulturrevolution" id="96ae0d13-409a-41ca-b4f1-a5bbbfcaaa00" size="ChinaCard">
+            <property name="Title" value="Kulturrevolution"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Zeit der Drei Reiche" id="f7f72ec5-2f3a-4014-b018-1ec73e71c78c" size="ChinaCard">
+            <property name="Title" value="Zeit der Drei Reiche"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-2-2-4"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+        <card name="Qingming-Fest" id="95c764f7-2b53-40b1-8256-df152da882e5" size="ChinaCard">
+            <property name="Title" value="Qingming-Fest"/>
+            <property name="Faction" value="China"/>
+            <property name="Lifespan" value="VR China"/>
+            <property name="Type" value="Ereignis"/>
+            <property name="Traits" value="Literatur, Musik, Kunst"/>
+            <property name="Production" value="0-1-1-1-3"/>
+            <property name="Cost" value="0-0-0"/>
+            <property name="Description" value=""/>
+        </card>
+
+    </cards>
+
+</set>
