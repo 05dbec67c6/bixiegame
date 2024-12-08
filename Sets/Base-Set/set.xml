@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Base Set" id="0d50c9a7-1ec5-4bb0-b8d6-03bc5d129644" gameId="8609c51d-478d-4c30-a7c1-e97a07ba6be9" gameVersion="1.0.0.0" version="1.0">
+    <cards>
+        <card id="bab6ccda-08ce-49c5-9a2c-4178af7b3e26" name="Ace of Spades">
+            <property name="Text" value="Heart"/>
+        </card>
+    </cards>
+</set>
