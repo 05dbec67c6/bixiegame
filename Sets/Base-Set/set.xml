@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Base Set" id="0d50c9a7-1ec5-4bb0-b8d6-03bc5d129644" gameId="8609c51d-478d-4c30-a7c1-e97a07ba6be9" gameVersion="1.0.0.0" version="1.0">
+<set name="Germany" gameId="82bd917d-d6a5-4144-a62e-6024a0e8d465" gameVersion="1.0.0.0" id="4a19288c-4a3a-4743-9eac-c8e73f32e230" version="1.0">
     <cards>
         <card id="bab6ccda-08ce-49c5-9a2c-4178af7b3e26" name="Ace of Spades">
             <property name="Text" value="Heart"/>
