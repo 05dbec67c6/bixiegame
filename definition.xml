@@ -14,7 +14,8 @@
 
     <!--    Card definition-->
     <card back="Resources/back_default.png" cornerRadius="2" front="Resources/front_default.png" height="88" width="63">
-        <property name="Text" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Title" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Type" hidden="False" ignoreText="False" textKind="Free" type="String"/>
     </card>
 
     <table name="Table" background="Resources/wallpaper.jpg" backgroundStyle="uniformToFill" height="650" ordered="False" visibility="undefined" width="800">

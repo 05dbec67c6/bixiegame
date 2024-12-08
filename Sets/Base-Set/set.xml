@@ -2,7 +2,8 @@
 <set name="Germany" gameId="82bd917d-d6a5-4144-a62e-6024a0e8d465" gameVersion="1.0.0.0" id="4a19288c-4a3a-4743-9eac-c8e73f32e230" version="1.0">
     <cards>
         <card id="bab6ccda-08ce-49c5-9a2c-4178af7b3e26" name="Ace of Spades">
-            <property name="Text" value="Heart"/>
+            <property name="Title" value="Heart"/>
+            <property name="Type" value="Work"/>
         </card>
     </cards>
 </set>

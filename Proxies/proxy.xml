@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <templates>
-  <blocks>
-    <block type="text" id="name">
-      <location x="50" y="50"/>
-      <text color="#000000" size="20"/>
-    </block>
-  </blocks>
-  <template src="Resources/back_default.png" default="True">
-    <matches>
-      <match name="property" value="name" />
-    </matches>
-    <textblocks>
-      <link block="name">
-        <property name="Name"  />
-      </link>
-    </textblocks>
-  </template>
+
+    <blocks>
+        <block id="title" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+        </block>
+    </blocks>
+
+    <template default="True" src="Resources/front_default.png">
+
+        <matches>
+            <!-- Select the matcher-->
+            <!-- <match name="Type" value="Investigator" />-->
+            <match name="Type" value="Work"/>
+        </matches>
+
+        <textblocks>
+
+            <!-- The block id in 'blocks'-->
+            <link block="title">
+
+                <!-- The name of the card in definition-->
+                <property name="Title"/>
+            </link>
+        </textblocks>
+
+    </template>
 </templates>
