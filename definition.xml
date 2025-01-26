@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game name="Default Game"
+      authors="brine"
+      description="A base game plugin ready to be customized"
+      gameurl="http://www.octgn.net"
+      iconurl="https://raw.github.com/kellyelton/Standa rd-Playing-Cards-Octgn/master/src/images/icon.jpg"
+      id="d95e8fe9-2e99-4d59-a97a-bf1e3408902f"
+      markersize="25"
+      octgnVersion="3.1.240.0"
+      scriptVersion="3.1.0.2"
+      setsurl="http://www.octgn.net"
+      tags="game"
+      version="1.0.0.0"
+>
+    <scripts>
+        <script src="Scripts/actions.py"/>
+    </scripts>
+    <events>
+    </events>
+    <sounds>
+    </sounds>
+    <fonts>
+    </fonts>
+    <proxygen definitionsrc="Proxies/proxy.xml">
+    </proxygen>
+    <documents>
+    </documents>
+    <gameModes>
+    </gameModes>
+    <globalvariables>
+    </globalvariables>
+    <!--    Card definition-->
+    <card back="Resources/back_default.png" cornerRadius="2" front="Resources/front_default.png" height="88" width="63">
+        <property name="Faction" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Type" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Description" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="CulturePower" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="CultureType" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+        <property name="Cost" hidden="False" ignoreText="False" textKind="Free" type="String"/>
+    </card>
+    <table name="Table" background="Resources/wallpaper.jpg" backgroundStyle="uniformToFill" height="650" ordered="False" visibility="undefined" width="800">
+        <groupaction execute="flipCoin" menu="Flip a Coin" shortcut="ctrl+shift+r"/>
+        <groupaction execute="rollDice" menu="Roll a 6-sided Die" shortcut="ctrl+r"/>
+        <groupaction execute="interrupt" menu="Interrupt Game" shortcut="enter"/>
+        <groupaction execute="passTurn" menu="Pass" shortcut="tab"/>
+        <cardaction batchExecute="rotate" default="True" menu="Rotate Card"/>
+        <cardaction batchExecute="flip" menu="Flip Card Face Up/Down" shortcut="ctrl+f"/>
+        <cardaction batchExecute="highlightCard" menu="Add/Remove Highlight" shortcut="ctrl+A"/>
+        <cardaction batchExecute="addMarker" menu="Add Marker" shortcut="ctrl+Q"/>
+        <cardaction batchExecute="removeMarker" menu="Remove Marker" shortcut="ctrl+W"/>
+        <cardaction batchExecute="addAnyMarker" menu="Add Custom Marker..." shortcut="ctrl+shift+Q"/>
+    </table>
+    <player summary="Hand:{#Hand} Score:{#Score}">
+        <counter name="Score" icon="Resources/score.png"/>
+        <group name="Hand" icon="Resources/hand.png" ordered="False" shortcut="ctrl+H" viewState="expanded" visibility="me">
+            <cardaction execute="discard" menu="Discard Card" shortcut="del"/>
+            <groupaction execute="randomDiscard" menu="Randomly Discard a Card"/>
+            <groupaction execute="randomPick" menu="Randomly Pick a Card"/>
+            <groupaction execute="allToDeck" menu="Move All Cards to Deck"/>
+        </group>
+        <group name="Deck" icon="Resources/deck.png" shortcut="ctrl+E" visibility="none">
+            <groupaction default="True" execute="draw" menu="Draw" shortcut="ctrl+D"/>
+            <groupaction execute="drawMany" menu="Draw X Cards" shortcut="ctrl+shift+D"/>
+            <groupaction execute="discardMany" menu="Discard X Cards"/>
+            <groupaction execute="shuffle" menu="Shuffle" shortcut="ctrl+S"/>
+        </group>
+        <group name="Discard" icon="Resources/discard.png" shortcut="del" visibility="all">
+            <groupaction execute="shuffle" menu="Shuffle" shortcut="ctrl+S"/>
+            <groupaction execute="allToDeck" menu="Move All Cards to Deck"/>
+        </group>
+    </player>
+    <shared>
+    </shared>
+    <deck>
+        <section name="Main Deck" group="Deck"/>
+    </deck>
+</game>
