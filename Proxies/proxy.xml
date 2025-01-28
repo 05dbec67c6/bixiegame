@@ -1,19 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <templates>
-  <blocks>
-    <block type="text" id="name">
-      <location x="50" y="50"/>
-      <text color="#000000" size="20"/>
-    </block>
-  </blocks>
-  <template src="Resources/back_default.png" default="True">
-    <matches>
-      <match name="property" value="name"/>
-    </matches>
-    <textblocks>
-      <link block="name">
-        <property name="Name"/>
-      </link>
-    </textblocks>
-  </template>
+    <blocks>
+
+        <block id="culture_type" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="culture_power" type="text">
+            <location x="50" y="100"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="title" type="text">
+            <location x="50" y="200"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="faction" type="text">
+            <location x="50" y="250"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="card_type" type="text">
+            <location x="50" y="300"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+
+        <block id="description" type="text">
+            <location x="50" y="300"/>
+            <text color="#000000" size="20"/>
+            <wordwrap height="195" width="300"/>
+        </block>
+
+    </blocks>
+
+    <!-- PERSONALITY PROXY-->
+    <template default="True" src="Resources/front_default.png">
+
+        <matches>
+            <match name="CardType" value="Personality"/>
+        </matches>
+
+        <textblocks>
+            <link block="title">
+                <property name="Title" format="Title: {}"/>
+            </link>
+            <link block="faction">
+                <property name="Faction" format="Faction: {}"/>
+            </link>
+            <link block="card_type">
+                <property name="CardType" format="CardType: {}"/>
+            </link>
+            <link block="culture_type">
+                <property name="CultureType" format="CultureType: {}"/>
+            </link>
+            <link block="culture_power">
+                <property name="CulturePower" format="CulturePower: {}"/>
+            </link>
+            <link block="description">
+                <property name="Description" format="Description: {}"/>
+            </link>
+
+        </textblocks>
+    </template>
 </templates>
