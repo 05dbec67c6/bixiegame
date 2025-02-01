@@ -2,34 +2,58 @@
 <templates>
     <blocks>
 
-        <block id="culture_type" type="text">
+        <!-- PERSONALITY BLOCK-->
+
+        <block id="personality_culture_type" type="text">
             <location x="50" y="50"/>
             <text color="#000000" size="20"/>
         </block>
 
-        <block id="culture_power" type="text">
+        <block id="personality_culture_power" type="text">
             <location x="50" y="100"/>
             <text color="#000000" size="20"/>
         </block>
 
-        <block id="title" type="text">
+        <block id="personality_title" type="text">
             <location x="50" y="200"/>
             <text color="#000000" size="20"/>
         </block>
 
-        <block id="faction" type="text">
+        <block id="personality_faction" type="text">
             <location x="50" y="250"/>
             <text color="#000000" size="20"/>
         </block>
 
-        <block id="card_type" type="text">
+        <block id="personality_card_type" type="text">
             <location x="50" y="300"/>
             <text color="#000000" size="20"/>
         </block>
 
+        <block id="personality_description" type="text">
+            <location x="50" y="350"/>
+            <text color="#000000" size="20"/>
+            <wordwrap height="195" width="300"/>
+        </block>
 
-        <block id="description" type="text">
-            <location x="50" y="300"/>
+        <!-- WORKS BLOCK-->
+
+        <block id="work_title" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="work_culture_type" type="text">
+            <location x="50" y="100"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="work_card_type" type="text">
+            <location x="50" y="150"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="work_description" type="text">
+            <location x="50" y="200"/>
             <text color="#000000" size="20"/>
             <wordwrap height="195" width="300"/>
         </block>
@@ -44,23 +68,47 @@
         </matches>
 
         <textblocks>
-            <link block="title">
+            <link block="personality_title">
                 <property name="Title" format="Title: {}"/>
             </link>
-            <link block="faction">
+            <link block="personality_faction">
                 <property name="Faction" format="Faction: {}"/>
             </link>
-            <link block="card_type">
+            <link block="personality_card_type">
                 <property name="CardType" format="CardType: {}"/>
             </link>
-            <link block="culture_type">
+            <link block="personality_culture_type">
                 <property name="CultureType" format="CultureType: {}"/>
             </link>
-            <link block="culture_power">
+            <link block="personality_culture_power">
                 <property name="CulturePower" format="CulturePower: {}"/>
             </link>
-            <link block="description">
+            <link block="personality_description">
                 <property name="Description" format="Description: {}"/>
+            </link>
+
+        </textblocks>
+    </template>
+
+    <!-- WORK PROXY-->
+    <template default="False" src="Resources/front_work.png">
+
+        <matches>
+            <match name="CardType" value="Work"/>
+        </matches>
+
+        <textblocks>
+            <link block="work_title">
+                <property name="Title" format="Work title: {}"/>
+            </link>
+            <link block="work_culture_type">
+                <property name="CultureType" format="Work culture type: {}"/>
+            </link>
+            <link block="work_card_type">
+                <property name="CardType" format="Work card type: {}"/>
+            </link>
+            <link block="work_description">
+                <property name="Description" format="Work description: {}"/>
             </link>
 
         </textblocks>

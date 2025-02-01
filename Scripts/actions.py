@@ -1,5 +1,3 @@
-import re
-
 ###################
 #### CONSTANTS ####
 ###################
@@ -17,17 +15,20 @@ drawManyDefault = 5
 
 # Change this tuple if you want to create a specific default marker (not recommended)
 StandardMarker = ("Marker", "d9851c6f-2ed7-4ca9-82d2-f22e4e12114c")
+handSize = 5
+
 
 ######################
 #### PILE ACTIONS ####
 ######################
 
-def shuffle(group, x = 0, y = 0):
+def shuffle(group, x=0, y=0):
     mute()
     group.shuffle()
     notify("{} shuffles their {}.".format(me, group.name))
 
-def draw(group, x = 0, y = 0):
+
+def draw(group, x=0, y=0):
     mute()
     if len(group) < 1:
         return
@@ -35,7 +36,8 @@ def draw(group, x = 0, y = 0):
     card.moveTo(card.owner.hand)
     notify("{} draws a card from {}.".format(me, group.name))
 
-def drawMany(group, x = 0, y = 0):
+
+def drawMany(group, x=0, y=0):
     if len(group) < 1:
         return
     mute()
@@ -46,7 +48,8 @@ def drawMany(group, x = 0, y = 0):
         card.moveTo(card.owner.hand)
     notify("{} draws {} cards from {}.".format(me, count, group.name))
 
-def discardMany(group, x = 0, y = 0):
+
+def discardMany(group, x=0, y=0):
     if len(group) < 1:
         return
     mute()
@@ -55,17 +58,19 @@ def discardMany(group, x = 0, y = 0):
         card.moveTo(card.owner.piles[discard])
     notify("{} discards {} cards from {}.".format(me, count, group.name))
 
-def allToDeck(group, x = 0, y = 0):
+
+def allToDeck(group, x=0, y=0):
     mute()
     for card in group:
         card.moveTo(card.owner.piles[deck])
     notify("{} moves all cards from {} to {}.".format(me, group.name, me.piles[deck].name))
 
+
 ######################
 #### HAND ACTIONS ####
 ######################
 
-def randomDiscard(group, x = 0, y = 0):
+def randomDiscard(group, x=0, y=0):
     mute()
     card = group.random()
     if card == None:
@@ -73,7 +78,8 @@ def randomDiscard(group, x = 0, y = 0):
     card.moveTo(me.piles[discard])
     notify("{} randomly discards {} from {}.".format(me, card, group.name))
 
-def randomPick(group, x = 0, y = 0):
+
+def randomPick(group, x=0, y=0):
     mute()
     card = group.random()
     if card == None:
@@ -88,16 +94,18 @@ def randomPick(group, x = 0, y = 0):
     card.select()
     card.target(True)
 
+
 #######################
 #### TABLE ACTIONS ####
 #######################
 
-def rollDice(group, x = 0, y = 0):
+def rollDice(group, x=0, y=0):
     mute()
     n = rnd(1, 6)
     notify("{} rolls {} on a 6-sided die.".format(me, n))
 
-def flipCoin(group, x = 0, y = 0):
+
+def flipCoin(group, x=0, y=0):
     mute()
     n = rnd(1, 2)
     if n == 1:
@@ -105,13 +113,16 @@ def flipCoin(group, x = 0, y = 0):
     else:
         notify("{} flips tails.".format(me))
 
-def interrupt(group, x = 0, y = 0):
+
+def interrupt(group, x=0, y=0):
     notify('{} interrupts the game.'.format(me))
 
-def passTurn(group, x = 0, y = 0):
+
+def passTurn(group, x=0, y=0):
     notify('{} passes.'.format(me))
 
-def addAnyMarker(cards, x = 0, y = 0):
+
+def addAnyMarker(cards, x=0, y=0):
     mute()
     marker, quantity = askMarker()
     if quantity == 0: return
@@ -119,13 +130,15 @@ def addAnyMarker(cards, x = 0, y = 0):
         card.markers[marker] += quantity
         notify("{} adds {} {} marker(s) to {}.".format(me, quantity, marker[0], card))
 
-def addMarker(cards, x = 0, y = 0):
+
+def addMarker(cards, x=0, y=0):
     mute()
     for card in cards:
         card.markers[StandardMarker] += 1
         notify("{} adds a marker to {}.".format(me, card))
 
-def removeMarker(cards, x = 0, y = 0):
+
+def removeMarker(cards, x=0, y=0):
     mute()
     for card in cards:
         if card.markers[StandardMarker] < 1:
@@ -133,7 +146,8 @@ def removeMarker(cards, x = 0, y = 0):
         card.markers[StandardMarker] -= 1
         notify("{} removes a marker from {}.".format(me, card))
 
-def rotate(cards, x = 0, y = 0):
+
+def rotate(cards, x=0, y=0):
     mute()
     for card in cards:
         card.orientation ^= Rot90
@@ -142,7 +156,8 @@ def rotate(cards, x = 0, y = 0):
         else:
             notify('{} turns {} upright'.format(me, card))
 
-def flip(cards, x = 0, y = 0):
+
+def flip(cards, x=0, y=0):
     mute()
     for card in cards:
         if card.isFaceUp == True:
@@ -152,7 +167,8 @@ def flip(cards, x = 0, y = 0):
             card.isFaceUp = True
             notify("{} flips {} face up.".format(me, card))
 
-def highlightCard(cards, x = 0, y = 0):
+
+def highlightCard(cards, x=0, y=0):
     mute()
     for card in cards:
         if card.highlight == highlight:
@@ -162,3 +178,72 @@ def highlightCard(cards, x = 0, y = 0):
             card.highlight = highlight
             notify('{} highlights {}'.format(me, card))
 
+
+# Triggered event OnLoadDeck
+# args: player, groups
+# def deckLoaded(args):
+#     drawOpeningHand()
+
+
+def drawOpeningHand():
+    me.deck.shuffle()
+    mute()
+    for i in range(0, handSize):
+        draw(me.deck)
+    me.deck.shuffle()
+
+
+def drawUnrevealed(group=None, x=0, y=0):
+    mute()
+    card = group[0]
+    notify('{} moves a card to the table'.format(me, card))
+    card.moveToTable(0, 100, True)
+    return card
+
+
+# Triggered event OnLoadDeck
+# args: player, groups
+def deckLoaded(args):
+    # mute()
+    if args.player != me:
+        return
+
+    isShared = False
+    isPlayer = False
+    for g in args.groups:
+        if (g.name == 'Hand') or (g.name in me.piles):
+            isPlayer = True
+        if (g.name == 'Works'):
+            isShared = True
+
+    # If we are loading into the shared piles we need to become the controller of all the shared piles
+    # if isShared:
+    notify("{} Takes control of the works deck".format(me))
+    for p in shared.piles:
+        if shared.piles[p].controller != me:
+            shared.piles[p].controller = me
+    update()
+    if (isPlayer):
+        drawOpeningHand()
+
+    if (isShared):
+        setupWorkDeck()
+
+
+def setupWorkDeck():
+    workDeck = shared.piles['Works']
+    shuffleWorkDeck(workDeck)
+    moveStartingWorkCardsToTable(workDeck)
+
+
+def shuffleWorkDeck(args):
+    args.shuffle()
+
+
+def moveStartingWorkCardsToTable(group):
+    coordinates = [(-150, -30), (0, -30), (150, -30)]
+    for i in range(3):  # Move the top 3 cards
+        if len(group) == 0:  # Ensure there are enough cards
+            break
+        card = group.top()
+        card.moveToTable(*coordinates[i])  # Unpack the coordinates

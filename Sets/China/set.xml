@@ -3,7 +3,7 @@
     <cards>
         <card name="1" id="5c1b74f0-5292-4962-a0ca-8bf72bff9509" size="ChinaPlayerCard">
             <property name="Title" value="1"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -11,7 +11,7 @@
         </card>
         <card name="2" id="938e95c1-d911-4446-a1ac-3b349e391ca5" size="ChinaPlayerCard">
             <property name="Title" value="2"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -19,7 +19,7 @@
         </card>
         <card name="3" id="1569eab2-9934-4451-93e0-2129b397dfa5" size="ChinaPlayerCard">
             <property name="Title" value="3"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -27,7 +27,7 @@
         </card>
         <card name="4" id="0b39cd9b-021e-433b-b57a-55863499a134" size="ChinaPlayerCard">
             <property name="Title" value="4"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -35,7 +35,7 @@
         </card>
         <card name="5" id="450ad2ba-769f-4dc7-b0da-584cf8c53249" size="ChinaPlayerCard">
             <property name="Title" value="5"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -43,7 +43,7 @@
         </card>
         <card name="6" id="0b2e4d40-83e3-4f71-b78d-b40731610d67" size="ChinaPlayerCard">
             <property name="Title" value="6"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -51,7 +51,7 @@
         </card>
         <card name="7" id="b4678de6-5fbb-4c52-abc2-798f9d056373" size="ChinaPlayerCard">
             <property name="Title" value="7"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -59,7 +59,7 @@
         </card>
         <card name="8" id="b7d81ee6-261c-43fd-975f-0154547b6510" size="ChinaPlayerCard">
             <property name="Title" value="8"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Literature"/>
@@ -67,7 +67,7 @@
         </card>
         <card name="9" id="98e1e62b-365c-4e13-bd93-024a83e45955" size="ChinaPlayerCard">
             <property name="Title" value="9"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -75,7 +75,7 @@
         </card>
         <card name="10" id="b0b990d3-46c8-414f-968b-dea223f7bcee" size="ChinaPlayerCard">
             <property name="Title" value="10"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -83,7 +83,7 @@
         </card>
         <card name="11" id="4dffccb2-52c4-49f6-9c31-f1e955623e55" size="ChinaPlayerCard">
             <property name="Title" value="11"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -91,7 +91,7 @@
         </card>
         <card name="12" id="16fefab6-152b-43e5-af94-21877ef26e69" size="ChinaPlayerCard">
             <property name="Title" value="12"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -99,7 +99,7 @@
         </card>
         <card name="13" id="af9aafb2-b229-4f01-8f60-4fc7339fdd12" size="ChinaPlayerCard">
             <property name="Title" value="13"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -107,7 +107,7 @@
         </card>
         <card name="14" id="0a33fb1a-62f5-4df8-b7a6-1713c66c9586" size="ChinaPlayerCard">
             <property name="Title" value="14"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -115,7 +115,7 @@
         </card>
         <card name="15" id="9b6ccff1-55bf-478b-9b7b-d5c4a8333aa3" size="ChinaPlayerCard">
             <property name="Title" value="15"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -123,7 +123,7 @@
         </card>
         <card name="16" id="81127d5d-ebea-4cb9-91fa-3f5f5e33d1e3" size="ChinaPlayerCard">
             <property name="Title" value="16"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Art"/>
@@ -131,7 +131,7 @@
         </card>
         <card name="17" id="dd3ae82c-b82e-4407-aded-3254e3881540" size="ChinaPlayerCard">
             <property name="Title" value="17"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -139,7 +139,7 @@
         </card>
         <card name="18" id="feff8103-2efa-44dd-9ced-ffd62f3d2b41" size="ChinaPlayerCard">
             <property name="Title" value="18"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -147,7 +147,7 @@
         </card>
         <card name="19" id="29d762dd-dc71-4652-a7f0-39ad8e02df66" size="ChinaPlayerCard">
             <property name="Title" value="19"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -155,7 +155,7 @@
         </card>
         <card name="20" id="01b2b4dd-f586-445e-a9e6-490dec2f4e3a" size="ChinaPlayerCard">
             <property name="Title" value="20"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -163,7 +163,7 @@
         </card>
         <card name="21" id="67a246a7-0157-4da4-b2e1-70dbf8062b2d" size="ChinaPlayerCard">
             <property name="Title" value="21"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -171,7 +171,7 @@
         </card>
         <card name="22" id="445a3a8a-4ac8-457e-aa15-839a50c57909" size="ChinaPlayerCard">
             <property name="Title" value="22"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -179,7 +179,7 @@
         </card>
         <card name="23" id="c2d9ba6e-63a1-4017-b165-43ae33cec230" size="ChinaPlayerCard">
             <property name="Title" value="23"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
@@ -187,7 +187,7 @@
         </card>
         <card name="24" id="e062ae33-861a-49ed-8f4d-4467ffafa88f" size="ChinaPlayerCard">
             <property name="Title" value="24"/>
-            <property name="Faction" value="Germany"/>
+            <property name="Faction" value="China"/>
             <property name="CardType" value="Personality"/>
             <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
             <property name="CultureType" value="Music"/>
