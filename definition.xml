@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<game name="Culture Clash" authors="brine" description="A base game plugin ready to be customized" gameurl="http://www.octgn.net" iconurl="https://raw.githubusercontent.com/05dbec67c6/bixiegame/main/Resources/logo.jpg" id="d95e8fe9-2e99-4d59-a97a-bf1e3408902f" markersize="25" octgnVersion="3.1.240.0" scriptVersion="3.1.0.2" setsurl="http://www.octgn.net" tags="game" version="1.0.0.17">
+<game name="Culture Clash" authors="Bixiegames" description="A game about the culture." gameurl="http://www.octgn.net" iconurl="https://raw.githubusercontent.com/05dbec67c6/bixiegame/main/Resources/logo2.png" id="d95e8fe9-2e99-4d59-a97a-bf1e3408902f" markersize="25" octgnVersion="3.1.240.0" scriptVersion="3.1.0.2" setsurl="http://www.octgn.net" tags="game" version="1.0.0.19">
   <scripts>
     <script src="Scripts/actions.py" />
   </scripts>
