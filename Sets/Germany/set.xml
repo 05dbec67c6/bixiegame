@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="GermanySet" gameId="d95e8fe9-2e99-4d59-a97a-bf1e3408902f" gameVersion="1.0.0.0" id="d390385a-9104-4a84-8a5f-ad34e420349f" version="1.0">
+    <cards>
+        <!--Literature        -->
+        <card name="1" id="d0a6e60d-7bc8-4bae-9005-45bceb1b8575" size="GermanyPlayerCard">
+            <property name="Title" value="1"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="0"/>
+            <property name="Description" value="You might choose any cards in your hand. Discard them and draw an equal amount."/>
+        </card>
+        <card name="2" id="3b50bdc1-42f7-4495-ab6c-ad8ac28d65d1" size="GermanyPlayerCard">
+            <property name="Title" value="2"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="0"/>
+            <property name="Description" value="The opponent has to discard 2 cards."/>
+        </card>
+        <card name="3" id="1030d5b5-752d-4f7a-8830-6a300d0c5567" size="GermanyPlayerCard">
+            <property name="Title" value="3"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="1"/>
+            <property name="Description" value="Draw 2 cards."/>
+        </card>
+        <card name="4" id="4a258e16-944d-484e-8d6a-a40d82deac40" size="GermanyPlayerCard">
+            <property name="Title" value="4"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="1"/>
+            <property name="Description" value="The opponent has to discard 1 cards."/>
+        </card>
+        <card name="5" id="d7f88559-6c79-43e8-b324-c959220ba054" size="GermanyPlayerCard">
+            <property name="Title" value="5"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="2"/>
+            <property name="Description" value="Draw 1 card."/>
+        </card>
+        <card name="6" id="d03308a7-46b6-4d29-9090-29d7e4114260" size="GermanyPlayerCard">
+            <property name="Title" value="6"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="2"/>
+            <property name="Description" value="Draw 1 card."/>
+        </card>
+        <card name="7" id="f45e081a-e2e2-41b8-96e1-6e51d6075d6f" size="GermanyPlayerCard">
+            <property name="Title" value="7"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="3"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="8" id="f9a14e14-285d-4229-a9d2-009fd0715743" size="GermanyPlayerCard">
+            <property name="Title" value="8"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CulturePower" value="3"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+
+        <!--Art        -->
+        <card name="9" id="4ce39eac-15d3-4876-ace6-c575b8c0ff0b" size="GermanyPlayerCard">
+            <property name="Title" value="9"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="0"/>
+            <property name="Description" value="Move 2 Personalities of the opponent to another work."/>
+        </card>
+        <card name="10" id="791d6bda-d285-42d3-831b-8aa62691eeff" size="GermanyPlayerCard">
+            <property name="Title" value="10"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="0"/>
+            <property name="Description" value="Choose 2 works. Exchange their positions."/>
+        </card>
+        <card name="11" id="40a5ff74-d1b7-4ade-954e-bc3ea32d0643" size="GermanyPlayerCard">
+            <property name="Title" value="11"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="1"/>
+            <property name="Description" value="Move 1 Personality of the opponent to another work."/>
+        </card>
+        <card name="12" id="9b06369e-8b5c-4f71-bab9-bbc16fd967f9" size="GermanyPlayerCard">
+            <property name="Title" value="12"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="1"/>
+            <property name="Description" value="Move 1 of your own Personalitiy to another work."/>
+        </card>
+        <card name="13" id="e32171aa-d07b-4398-ac61-c53cdfc26509" size="GermanyPlayerCard">
+            <property name="Title" value="13"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="2"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="14" id="f47f98cb-0e58-4120-9169-6f395df60423" size="GermanyPlayerCard">
+            <property name="Title" value="14"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="2"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="15" id="94f45699-1b14-4602-8b38-e117d4d93d4f" size="GermanyPlayerCard">
+            <property name="Title" value="15"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="3"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="16" id="0a682953-7dd2-4c0d-8ffd-0a8618da84ff" size="GermanyPlayerCard">
+            <property name="Title" value="16"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CulturePower" value="3"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+
+        <!--Music        -->
+        <card name="17" id="313173e3-8593-4209-a35f-ec114673ce62" size="GermanyPlayerCard">
+            <property name="Title" value="17"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="0"/>
+            <property name="Description" value="Choose another personality. 17 gains the culture power of the chosen card."/>
+        </card>
+        <card name="18" id="8b47c15e-8d85-4b36-866c-b9607112e47b" size="GermanyPlayerCard">
+            <property name="Title" value="18"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="0"/>
+            <property name="Description" value="Cancel the next 'when revealed' effect of your opponent."/>
+        </card>
+        <card name="19" id="d95eaf48-1df0-4698-8263-17c0034df482" size="GermanyPlayerCard">
+            <property name="Title" value="19"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="1"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="20" id="cba37a39-5457-4dd8-a4a6-cab55c495d43" size="GermanyPlayerCard">
+            <property name="Title" value="20"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="1"/>
+            <property name="Description" value="This personality also counts its culture power to the works left and right."/>
+        </card>
+        <card name="21" id="6e83a587-9125-40b5-9bdd-7569addbcb9d" size="GermanyPlayerCard">
+            <property name="Title" value="21"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="2"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="22" id="d929e60d-bffd-4c92-8bd7-1af223fbc852" size="GermanyPlayerCard">
+            <property name="Title" value="22"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="2"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="23" id="ce762146-6820-4d57-97c5-cf42c3091c02" size="GermanyPlayerCard">
+            <property name="Title" value="23"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="3"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+        <card name="24" id="bc64d74c-9516-4eb7-a26b-4327a593f1e0" size="GermanyPlayerCard">
+            <property name="Title" value="24"/>
+            <property name="Faction" value="Germany"/>
+            <property name="CardType" value="Personality"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CulturePower" value="3"/>
+            <property name="Description" value="EMPTY"/>
+        </card>
+
+
+    </cards>
+</set>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+    <blocks>
+
+        <!-- PERSONALITY BLOCK-->
+
+        <block id="personality_culture_type" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="personality_culture_power" type="text">
+            <location x="50" y="100"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="personality_title" type="text">
+            <location x="50" y="200"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="personality_faction" type="text">
+            <location x="50" y="250"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="personality_card_type" type="text">
+            <location x="50" y="300"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="personality_description" type="text">
+            <location x="50" y="350"/>
+            <text color="#000000" size="20"/>
+            <wordwrap height="195" width="300"/>
+        </block>
+
+        <!-- WORKS BLOCK-->
+
+        <block id="work_title" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="work_culture_type" type="text">
+            <location x="50" y="100"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="work_card_type" type="text">
+            <location x="50" y="150"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+        <block id="work_description" type="text">
+            <location x="50" y="200"/>
+            <text color="#000000" size="20"/>
+            <wordwrap height="195" width="300"/>
+        </block>
+
+    </blocks>
+
+    <!-- PERSONALITY PROXY -->
+    <!--MUSIC -->
+    <template default="True" src="Resources/front_music.png">
+        <matches>
+            <match name="CardType" value="Personality"/>
+            <match name="CultureType" value="Music"/>
+        </matches>
+
+        <textblocks>
+            <link block="personality_title">
+                <property name="Title" format="Title: {}"/>
+            </link>
+            <link block="personality_faction">
+                <property name="Faction" format="Faction: {}"/>
+            </link>
+            <link block="personality_card_type">
+                <property name="CardType" format="CardType: {}"/>
+            </link>
+            <link block="personality_culture_type">
+                <property name="CultureType" format="CultureType: {}"/>
+            </link>
+            <link block="personality_culture_power">
+                <property name="CulturePower" format="CulturePower: {}"/>
+            </link>
+            <link block="personality_description">
+                <property name="Description" format="Description: {}"/>
+            </link>
+
+        </textblocks>
+    </template>
+    <!-- ART -->
+    <template default="True" src="Resources/front_art.png">
+        <matches>
+            <match name="CardType" value="Personality"/>
+            <match name="CultureType" value="Art"/>
+        </matches>
+
+        <textblocks>
+            <link block="personality_title">
+                <property name="Title" format="Title: {}"/>
+            </link>
+            <link block="personality_faction">
+                <property name="Faction" format="Faction: {}"/>
+            </link>
+            <link block="personality_card_type">
+                <property name="CardType" format="CardType: {}"/>
+            </link>
+            <link block="personality_culture_type">
+                <property name="CultureType" format="CultureType: {}"/>
+            </link>
+            <link block="personality_culture_power">
+                <property name="CulturePower" format="CulturePower: {}"/>
+            </link>
+            <link block="personality_description">
+                <property name="Description" format="Description: {}"/>
+            </link>
+        </textblocks>
+    </template>
+    <!-- LITERATURE -->
+    <template default="True" src="Resources/front_literature.png">
+        <matches>
+            <match name="CardType" value="Personality"/>
+            <match name="CultureType" value="Literature"/>
+        </matches>
+
+        <textblocks>
+            <link block="personality_title">
+                <property name="Title" format="Title: {}"/>
+            </link>
+            <link block="personality_faction">
+                <property name="Faction" format="Faction: {}"/>
+            </link>
+            <link block="personality_card_type">
+                <property name="CardType" format="CardType: {}"/>
+            </link>
+            <link block="personality_culture_type">
+                <property name="CultureType" format="CultureType: {}"/>
+            </link>
+            <link block="personality_culture_power">
+                <property name="CulturePower" format="CulturePower: {}"/>
+            </link>
+            <link block="personality_description">
+                <property name="Description" format="Description: {}"/>
+            </link>
+        </textblocks>
+    </template>
+
+    <!-- WORK PROXY-->
+    <template default="False" src="Resources/front_work.png">
+
+        <matches>
+            <match name="CardType" value="Work"/>
+        </matches>
+
+        <textblocks>
+            <link block="work_title">
+                <property name="Title" format="Work title: {}"/>
+            </link>
+            <link block="work_culture_type">
+                <property name="CultureType" format="Work culture type: {}"/>
+            </link>
+            <link block="work_card_type">
+                <property name="CardType" format="Work card type: {}"/>
+            </link>
+            <link block="work_description">
+                <property name="Description" format="Work description: {}"/>
+            </link>
+
+        </textblocks>
+    </template>
+
+</templates>
+

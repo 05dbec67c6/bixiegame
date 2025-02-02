@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="WorkSet" gameId="d95e8fe9-2e99-4d59-a97a-bf1e3408902f" gameVersion="1.0.0.0" id="105527d6-dabc-4589-bedc-93d9b8c33ac8" version="1.0">
+    <cards>
+        <card name="1" id="43f0a854-b922-4286-919e-95e9c2757aa7" size="WorkCard">
+            <property name="Title" value="1"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="2" id="48d63496-af3f-46fd-8215-adbae9e4ca36" size="WorkCard">
+            <property name="Title" value="2"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="3" id="18a5fe6f-49e8-4fac-9bf1-9ba37a7c5891" size="WorkCard">
+            <property name="Title" value="3"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="4" id="f5278d8c-5943-4ddf-a819-777fb25e19dc" size="WorkCard">
+            <property name="Title" value="4"/>
+            <property name="CultureType" value="Literature"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="5" id="85579535-6a9d-4caa-a821-4b5cd55e9378" size="WorkCard">
+            <property name="Title" value="5"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="6" id="461e6c8d-ef7d-4b8d-bd15-4340e991d9d3" size="WorkCard">
+            <property name="Title" value="6"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="7" id="fb698bbb-97cb-413f-94b3-5dc5a438263b" size="WorkCard">
+            <property name="Title" value="7"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="8" id="9381015a-3983-43d3-8f7f-931569bcd49f" size="WorkCard">
+            <property name="Title" value="8"/>
+            <property name="CultureType" value="Music"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="9" id="7300c3b1-12c8-43c7-b2c9-f91360466fc6" size="WorkCard">
+            <property name="Title" value="9"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="10" id="41dc74e8-3a85-4861-bc71-a202071aaf7f" size="WorkCard">
+            <property name="Title" value="10"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="11" id="0f76545f-711f-4188-af86-977c27265484" size="WorkCard">
+            <property name="Title" value="11"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+        <card name="12" id="daee497b-bc6c-41ad-9dde-e273b0e0959e" size="WorkCard">
+            <property name="Title" value="12"/>
+            <property name="CultureType" value="Art"/>
+            <property name="CardType" value="Work"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
+
+    </cards>
+</set>
+
