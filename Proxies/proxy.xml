@@ -59,7 +59,6 @@
             <wordwrap height="195" width="300"/>
         </block>
 
-
     </blocks>
 
 
@@ -177,7 +176,7 @@
     </template>
 
     <!-- STARTING PLAYER CARD PROXY-->
-    <template default="False" src="Resources/back_starting_player.jpg">
+    <template default="False" src="Resources/back_starting_player.png">
 
         <matches>
             <match name="CardType" value="StartingPlayer"/>
