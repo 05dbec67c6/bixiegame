@@ -231,6 +231,7 @@ def deckLoaded(args):
 
 def setupWorkDeck():
     workDeck = shared.piles['Works']
+    searchAndPlaceStartingPlayerCardonTable(workDeck)
     shuffleWorkDeck(workDeck)
     moveStartingWorkCardsToTable(workDeck)
 
@@ -246,3 +247,32 @@ def moveStartingWorkCardsToTable(group):
             break
         card = group.top()
         card.moveToTable(*coordinates[i])  # Unpack the coordinates
+
+
+def searchAndPlaceStartingPlayerCardonTable(group):
+    for card in group:
+        if card.CardType == "StartingPlayer":
+            card.moveToTable(-300, -30)
+
+
+def defaultAction(card, x=0, y=0):
+    if card.CardType == "Personality":
+        flipcard(card, x, y)
+    elif card.CardType == "StartingPlayer":
+        rotate180(card, x, y)
+    else:
+        flipcard(card, x, y)
+
+
+def flipcard(card, x=0, y=0):
+    mute()
+    if card.isFaceUp:
+        card.isFaceUp = False
+        notify("{} turns '{}' face down.".format(me, card))
+    else:
+        card.isFaceUp = True
+
+
+def rotate180(card, x=0, y=0):
+    mute()
+    card.orientation ^= Rot180
