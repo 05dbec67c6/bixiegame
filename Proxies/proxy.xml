@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <templates>
+    <!--    BLOCKS
+            Personality
+            Works
+            Starting Player
+            Rule-->
     <blocks>
+
 
         <!-- PERSONALITY BLOCK-->
 
@@ -59,6 +65,7 @@
             <wordwrap height="195" width="300"/>
         </block>
 
+
         <!--        STARTING PLAYER-->
 
         <block id="starting_player_type" type="text">
@@ -66,7 +73,25 @@
             <text color="#000000" size="20"/>
         </block>
 
+
+        <!--        RULE  -->
+
+        <block id="rule_type" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+            <wordwrap height="600" width="422"/>
+        </block>
+
     </blocks>
+
+<!--    TEMPLATES
+        Personality Music
+        Personality Art
+        Personality Literature
+        Work
+        Starting Player
+        Rule-->
+
 
     <!-- PERSONALITY PROXY -->
     <!--MUSIC -->
@@ -98,6 +123,9 @@
 
         </textblocks>
     </template>
+
+
+    <!-- PERSONALITY PROXY -->
     <!-- ART -->
     <template default="True" src="Resources/front_art.png">
         <matches>
@@ -126,6 +154,9 @@
             </link>
         </textblocks>
     </template>
+
+
+    <!-- PERSONALITY PROXY -->
     <!-- LITERATURE -->
     <template default="True" src="Resources/front_literature.png">
         <matches>
@@ -155,7 +186,6 @@
         </textblocks>
     </template>
 
-    <!--    PROXIES-->
 
     <!-- WORK PROXY-->
     <template default="False" src="Resources/front_work.png">
@@ -190,6 +220,20 @@
         <textblocks>
             <link block="starting_player_type">
                 <property name="CardType"/>
+            </link>
+        </textblocks>
+    </template>
+
+
+    <!-- RULE CARD PROXY-->
+    <template default="False" src="Resources/front_default.png">
+
+        <matches>
+            <match name="CardType" value="Rule"/>
+        </matches>
+        <textblocks>
+            <link block="rule_type">
+                <property name="Description"/>
             </link>
         </textblocks>
     </template>

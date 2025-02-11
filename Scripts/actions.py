@@ -232,6 +232,7 @@ def deckLoaded(args):
 def setupWorkDeck():
     workDeck = shared.piles['Works']
     searchAndPlaceStartingPlayerCardonTable(workDeck)
+    searchAndPlaceRuleCardsonTable(workDeck)
     shuffleWorkDeck(workDeck)
     moveStartingWorkCardsToTable(workDeck)
 
@@ -254,6 +255,12 @@ def searchAndPlaceStartingPlayerCardonTable(group):
         if card.CardType == "StartingPlayer":
             card.moveToTable(-300, -30)
             card.isFaceUp = False
+
+
+def searchAndPlaceRuleCardsonTable(group):
+    for card in group:
+        if card.CardType == "Rule":
+            card.moveToTable(-500, -300)
 
 
 def defaultAction(card, x=0, y=0):

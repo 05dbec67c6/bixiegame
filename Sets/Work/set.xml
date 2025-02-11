@@ -76,6 +76,10 @@
         <card name="Starting" id="db4a6268-447e-4790-a00c-db7682ad3a55" size="StartingPlayerCard">
             <property name="CardType" value="StartingPlayer"/>
         </card>
+        <card name="13" id="60b71ec6-c586-415b-b869-d0605672fd17" size="RuleCard">
+            <property name="CardType" value="Rule"/>
+            <property name="Description" value="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"/>
+        </card>
     </cards>
 </set>
 
