@@ -253,6 +253,7 @@ def searchAndPlaceStartingPlayerCardonTable(group):
     for card in group:
         if card.CardType == "StartingPlayer":
             card.moveToTable(-300, -30)
+            card.isFaceUp = False
 
 
 def defaultAction(card, x=0, y=0):

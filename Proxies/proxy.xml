@@ -59,8 +59,14 @@
             <wordwrap height="195" width="300"/>
         </block>
 
-    </blocks>
+        <!--        STARTING PLAYER-->
 
+        <block id="starting_player_type" type="text">
+            <location x="50" y="50"/>
+            <text color="#000000" size="20"/>
+        </block>
+
+    </blocks>
 
     <!-- PERSONALITY PROXY -->
     <!--MUSIC -->
@@ -149,7 +155,7 @@
         </textblocks>
     </template>
 
-<!--    PROXIES-->
+    <!--    PROXIES-->
 
     <!-- WORK PROXY-->
     <template default="False" src="Resources/front_work.png">
@@ -176,14 +182,17 @@
     </template>
 
     <!-- STARTING PLAYER CARD PROXY-->
-    <template default="False" src="Resources/back_starting_player.png">
+    <template default="False" src="Resources/front_default.png">
 
         <matches>
             <match name="CardType" value="StartingPlayer"/>
         </matches>
-
+        <textblocks>
+            <link block="starting_player_type">
+                <property name="CardType"/>
+            </link>
+        </textblocks>
     </template>
-
 
 
 </templates>
